@@ -1,0 +1,1 @@
+python main_prune_imagenet.py --config configs/imagenet/resnet50/GraSP_30.json

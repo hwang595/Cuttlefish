@@ -1,0 +1,44 @@
+{
+    "Registrations": [ 
+        {
+            "Component": { 
+                "Type": "git", 
+                "Git": {
+                    "RepositoryUrl": "https://github.com/BayesWatch/deficient-efficient",
+                    "CommitHash": "06d37fa9d3a9e86da982e2368f061a6b9bf5a5e2"
+                }
+            },
+            "DevelopmentDependency": false
+        },
+        {
+            "Component": { 
+                "Type": "git", 
+                "Git": {
+                    "RepositoryUrl": "https://github.com/alecwangcq/EigenDamage-Pytorch",
+                    "CommitHash": "0e2174f80294773e76a8cb73c0bd03f1b7fd2ccf"
+                }
+            },
+            "DevelopmentDependency": false
+        },
+        {
+            "Component": { 
+                "Type": "git", 
+                "Git": {
+                    "RepositoryUrl": "https://github.com/StillKeepTry/Transformer-PyTorch",
+                    "CommitHash": "8d495541a588e18734b2adf1ae6aeda91c7c95f5"
+                }
+            },
+            "DevelopmentDependency": false
+        },
+        {
+            "Component": { 
+                "Type": "git", 
+                "Git": {
+                    "RepositoryUrl": "https://github.com/akamaster/pytorch_resnet_cifar10",
+                    "CommitHash": "820f98cf5a332dacf31e4b41f1db981f5178f660"
+                }
+            },
+            "DevelopmentDependency": false
+        },
+    ]
+}
