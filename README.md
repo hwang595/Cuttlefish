@@ -18,6 +18,9 @@ Training low-rank neural network models has been recently shown to reduce the to
 * Huggingface 4.17.0.dev0
 (configured with Docker container [nvcr.io/nvidia/pytorch:22.01-py3](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch/tags); for BERT fine-tuning results)
 
+#### Public AMI
+We also provide the public Amazom EC2 AMI - ami-0a52060b49b26770b for your convenience where the ImageNet dataset, Docker environments, and etc are ready.
+
 ### Installation
 ---
 #### Docker env configurations
@@ -71,7 +74,6 @@ Epoch: 299, Test set: Average loss: 0.0011, Accuracy: 9466/10000 (94.66%)
 INFO:root:Comp-Time: 2513.8327392120354
 INFO:root:Best-Val-Acc: 94.66
 ```
-
 
 #### For CIFAR-10 and CIFAR-100 experiments (Table 1)
 ```
@@ -252,7 +254,6 @@ bash finetune_imagenet.sh
 ```
 
 We also leverage the great code bases, e.g., [open_lth](https://github.com/facebookresearch/open_lth) and [LC-model-compression](https://github.com/UCMerced-ML/LC-model-compression/tree/master/examples/cvpr2020) for our baseline comparisons.
-
 
 
 ### Citing Cuttlefish
