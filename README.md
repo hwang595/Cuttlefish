@@ -19,7 +19,7 @@ Training low-rank neural network models has been recently shown to reduce the to
 (configured with Docker container [nvcr.io/nvidia/pytorch:22.01-py3](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch/tags); for BERT fine-tuning results)
 
 #### Public AMI
-We also provide the public Amazom EC2 AMI - ami-0a52060b49b26770b for your convenience where the ImageNet dataset, Docker environments, and etc are ready.
+We also provide the public Amazom EC2 AMI - ami-05c0b3732203032b3 (in the region of US West (Oregon)) for your convenience where the ImageNet dataset, Docker environments, and etc are ready.
 
 ### Installation
 ---
