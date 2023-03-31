@@ -201,7 +201,7 @@ bash run_pufferfish_imagenet.sh
 ```
 docker exec -it cuttlefish-bert bash
 
-cd Cuttlefish/transformers/examples/text-classification
+cd Cuttlefish/transformers/examples/pytorch/text-classification
 
 bash run.sh # for Cuttlefish experiments
 bash run_vanilla.sh # for vanilla BERT fine-tuning
