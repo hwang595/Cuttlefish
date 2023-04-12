@@ -1,5 +1,8 @@
 ## Cuttlefish
 The implementation for MLSys 2023 paper: "Cuttlefish: Low-rank Model Training without All The Tuning"
+<p align="center">
+<a href="https://github.com/hwang595/Cuttlefish"><img src="images/cuttlefish_logo_dalle_generated.png" width="16%"></a>
+</p>
 
 ### Overview
 ---
