@@ -56,13 +56,13 @@ After downloading, one will get two zip files `ILSVRC2012_img_train.tar` and `IL
 
 After running the script, the overall folder structure will look like:
 ```
-ILSVRC2012/train/
+/workspace/ILSVRC2012/train/
 ├── n01440764
 │   ├── n01440764_10026.JPEG
 │   ├── n01440764_10027.JPEG
 │   ├── ......
 ├── ......
-ILSVRC2012/val/
+/workspace/ILSVRC2012/val/
 ├── n01440764
 │   ├── ILSVRC2012_val_00000293.JPEG
 │   ├── ILSVRC2012_val_00002138.JPEG
