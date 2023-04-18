@@ -48,6 +48,28 @@ cd Cuttlefish/transformers
 bash install.sh
 ```
 
+### ImageNet dataset preparation
+---
+Users who do not have access to our Amazom EC2 AMI can also download ImageNet (ILSVRC2012) directly from the [ImageNet website](https://image-net.org/challenges/LSVRC/2012/2012-downloads.php) (registration and login are required before downloading).
+
+After downloading, one will get two zip files `ILSVRC2012_img_train.tar` and `ILSVRC2012_img_val.tar` (yes, there is also a testset, but people tend not to use it). Then one can use [this script](https://github.com/hwang595/Cuttlefish/blob/main/scripts/extract_ILSVRC.sh) adapted from [PyTorch examples](https://github.com/pytorch/examples) to extract the ImageNet dataset (please make sure to copy the `extract_ILSVRC.sh` script to your data directory).  
+
+After running the script, the overall folder structure will look like:
+```
+ILSVRC2012/train/
+├── n01440764
+│   ├── n01440764_10026.JPEG
+│   ├── n01440764_10027.JPEG
+│   ├── ......
+├── ......
+ILSVRC2012/val/
+├── n01440764
+│   ├── ILSVRC2012_val_00000293.JPEG
+│   ├── ILSVRC2012_val_00002138.JPEG
+│   ├── ......
+├── ......
+```
+
 ### Executing experiments
 #### An Example Experiment
 To run Cuttlefish on ResNet-18+CIFAR-10 Task, just simply run (without changing any script modification)
