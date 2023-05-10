@@ -18,7 +18,7 @@ Training low-rank neural network models has been recently shown to reduce the to
 #### For BERT experiments
 * PyTorch 1.11.0
 * CUDA 11.6  
-* Huggingface 4.17.0.dev0
+* Hugging Face 4.17.0.dev0
 (configured with Docker container [nvcr.io/nvidia/pytorch:22.01-py3](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch/tags); for BERT fine-tuning results)
 
 #### Public AMI
